@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" type="module"></script>
+    <script src="script.js" type="module" defer></script>
     <title>Document</title>
 </head>
 <body>
     <header class="head">
         <div class="dropdownbtn">
-            <a href=".\" class="hamburger" >&#9776</a>
-            <ul class="dropdownMenu">
-                    <li><a href=".\"></a>Home</a></li>
-                    <li><a href=".\"></a>IT Support</a></li>
-                    <li><a href=".\"></a>Websites</a></li>
-                    <li><a href=".\"></a>Logo</a></li>
-                    <li><a href=".\"></a>Hardware</a></li>
-                    <li><a href=".\"></a>About</a></li>
-                    <li><a href=".\"></a>Contact</a></li>
-            </ul>
+            <a class="hamburger" >&#9776</a>
         </div>
         <div class="rjdp logo"><img src="./static/RJDPConsultsvg_styled.svg" alt="logo"></div>
         <div class="li logo"><img src="./static/linkedin-svgrepo-com.svg" alt="linkedin"></div> 
     </header>
+    
+        <ul class="dropdownMenu">
+            <li><a href=".\">Home</a></li>
+            <li><a href=".\">IT Support</a></li>
+            <li><a href=".\">Websites</a></li>
+            <li><a href=".\">Logo</a></li>
+            <li><a href=".\">Hardware</a></li>
+            <li><a href=".\">About</a></li>
+            <li><a href=".\">Contact</a></li>
+        </ul>
+
     <div class="main">
         <div class="section-one">
             <div class="section-one-text">
@@ -77,9 +79,10 @@
                 <p class="reviewname">Happy client</p>
             </div>
     </div>
-    </div>
     <div class="footer">
         <p>&copy; This website got created by RJDP Consulting. All rights reserved.</p>
     </div>
 </body>
 </html>
+
+
