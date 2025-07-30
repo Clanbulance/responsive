@@ -27,10 +27,15 @@ body{
     grid-template-rows: 0.2fr repeat(3,1fr) 0.3fr 2vh;
     padding:1.5rem;
     font-family: 'Segoe UI', 'Arial', sans-serif;
-    background-color: #8570eb;
-    color: #f7f7f7;
-    color: #222;
-
+      background:
+    repeating-linear-gradient(
+      90deg,
+      rgba(0,0,0,0.025) 0,
+      rgba(0,0,0,0.025) 1px,
+      transparent 1px,
+      transparent 24px
+    ),
+    #fffaf6;
 
 }
 
@@ -313,4 +318,19 @@ body{
   box-shadow: 0 8px 32px rgba(0,0,0,0.13);
   transform: scale(1.03);
   transition: box-shadow 0.3s, transform 0.3s;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background:
+      radial-gradient(50% 20% at 50% 0%, #1d1d1d 0%, transparent 70%),
+      #111214;
+    color: #f4f4f4;
+  }
+  /* optional: darker cards for contrast */
+  .section-one-text, .section-two .box, .side-content, .head {
+    background: #1a1b1e !important;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.5);
+  }
 }
