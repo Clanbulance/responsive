@@ -25,9 +25,9 @@ body{
     display: grid;
     grid-template-columns: repeat(6,auto);
     grid-template-rows: 0.2fr repeat(3,1fr) 0.3fr 2vh;
-    padding:1.5rem;
+    padding:1rem;
     font-family: 'Segoe UI', 'Arial', sans-serif;
-      background:
+    background:
     repeating-linear-gradient(
       90deg,
       rgba(0,0,0,0.025) 0,
@@ -48,10 +48,13 @@ body{
     grid-template-columns: 1fr 2fr 1fr;
 
     background: linear-gradient(90deg, #fff8f2 80%, #f7e9d7 100%);
+
     border-radius: 1.2rem;
+    border: 1.5px solid #e0b97f;
+
     box-shadow: 0 2px 12px rgba(0,0,0,0.06);
     margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
+    
     align-items: center;
     padding: left 1rem right 1rem;
     padding-top:0.5rem;
@@ -134,6 +137,7 @@ body{
     grid-template-rows: auto auto;
     gap:1.5rem;
     justify-content: center;
+    
 }
 
 .main .section-one-text{
@@ -145,6 +149,7 @@ body{
     box-shadow: 0 2px 16px rgba(0,0,0,0.07);
     align-items: flex-start;
     border: none;
+    border: 1.5px solid #e0b97f;
 }
 .imgbox{
     display: flex;
@@ -159,6 +164,7 @@ body{
     opacity: 0.95;
     background: #fff8f2;
     transition: transform 0.2s, box-shadow 0.2s;
+    border: 1.5px solid #e0b97f;
 }
 .imgbox img:hover {
     transform: scale(1.03) translateY(-4px);
@@ -192,6 +198,7 @@ body{
     background: linear-gradient(135deg, #fff8f2 70%, #f7e9d7 100%);
     border: none;
     transition: box-shadow 0.2s, transform 0.2s;
+    border: 1.5px solid #e0b97f;
 }
 .section-two .box:hover {
     box-shadow: 0 8px 32px rgba(0,0,0,0.13);
