@@ -76,7 +76,7 @@ body{
 .head div .hamburger {
     font-size: clamp(32px,10vw,48px);
     text-decoration: none;
-    color: #e0b97f;
+    color: #000000;
     background: #fff8f2;
     border-radius: 0.5rem;
     transition: background 0.2s, color 0.2s, box-shadow 0.2s;
